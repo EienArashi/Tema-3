@@ -1,0 +1,348 @@
+
+*{
+box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+h1{
+  font-size:50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  background-color: white;
+  padding: 0;
+  color: black;
+}
+
+
+header{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #ceebe7;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+footer{
+  position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     color: white;
+     text-align: center;
+     font-size: 13px;
+  }
+
+
+  p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin-top: 45px;
+  }
+
+
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: black;
+  font-family: 'raleway', sans-serif;
+
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.billede {
+   display: block;
+   max-width: 20%;
+   text-align: center;
+   margin: 10px, 5px;
+}
+
+.dk{
+  float: right;
+max-width: 60%;
+text-align: right;
+margin-top: 15px;
+}
+
+  a.et:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  a.et:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  a.et:hover {
+      color: black;
+      background-color: transparent;
+  }
+  a.et:active {
+      color: black;
+      background-color: transparent;
+  }
+
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: url('../img/wood.png');
+      text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-size: 9px;
+  }
+
+  li a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    padding: 14px 7px;
+    font-size: 9px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #111;
+  }
+
+
+  @media only screen and (min-width: 360px){
+        .responsive {
+            width: 100%;
+        }
+
+        p{
+          font-size: 15px;
+        }
+
+        .billede {
+           display: block;
+           max-width: 50%;
+           text-align: center;
+           margin: 0;
+           padding: 0;
+        }
+
+        .dk{
+          float: right;
+        max-width: 60%;
+        text-align: right;
+        margin-top: 15px;
+        }
+
+        .centered{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 14px;
+          color: black;
+        }
+
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        li {
+          font-size: 5px;
+          display: inline-block;
+          font-size: 12px;
+        }
+
+        li a {
+            display: block;
+            font-size: 8px;
+            color: white;
+            text-align: center;
+            padding: 14px 7px;
+            font-size: 10px;
+            text-decoration: none;
+        }
+    }
+
+    @media only screen and (min-width: 441px){
+        .responsive {
+            width: 100%;
+        }
+
+        h1 {
+          background-color: white;
+
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        li {
+          font-size: 5px;
+          display: inline-block;
+          font-size: 17px;
+        }
+
+        li a {
+            display: block;
+            font-size: 8px;
+            color: white;
+            text-align: center;
+            padding: 14px 9px;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+    }
+
+
+
+    @media only screen and (min-width: 736px){
+        .responsive {
+            width: 100%;
+        }
+
+        h1 {
+          background-color: white;
+          font-size:80px;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: black;
+}
+
+
+        ul {
+          margin: 0;
+          padding: 0;
+        }
+
+        li {
+          font-size: 5px;
+          display: inline-block;
+          font-size: 20px;
+        }
+
+        li a {
+            display: block;
+            font-size: 10px;
+            color: white;
+            text-align: center;
+            padding: 14px 17px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        p{
+          font-size: 25px;
+          margin-top: 70px;
+        }
+  }
+
+  @media only screen and (min-width: 950px){
+      .responsive {
+          width: 100%;
+      }
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 20px;
+      }
+
+      li a {
+          display: block;
+          font-size: 10px;
+          color: white;
+          text-align: center;
+          padding: 14px 40px;
+          font-size: 18px;
+          text-decoration: none;
+      }
+      p{
+        font-size: 30px;
+        margin-top: 150px;
+      }
+
+      .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        color: black;
+      }
+}
+
+  @media only screen and (min-width: 1100px){
+      .responsive {
+          width: 100%;
+      }
+
+      .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 33px;
+        color: black;
+      }
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 20px;
+      }
+
+      li a {
+          display: block;
+          font-size: 10px;
+          color: white;
+          text-align: center;
+          padding: 14px 47px;
+          font-size: 18px;
+          text-decoration: none;
+      }
+      p{
+        font-size: 30px;
+        margin-top: 10em;
+      }
+    }

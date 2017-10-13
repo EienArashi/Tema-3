@@ -1,0 +1,409 @@
+*{
+box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+header {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #ceebe7;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+  footer{
+    position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: black;
+       color: white;
+       text-align: center;
+       font-size: 13px;
+  	}
+
+
+p {
+  font-family: 'Raleway' sans-serif;
+  text-align: left;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+      }
+
+h1 {
+  font-size:50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  background-color: white;
+  padding: 0;
+  color: black;
+}
+
+
+/*kodet af wolf*/
+/*Bruger max-width for at for billederne til at passe*/
+  h2 {
+    font-size:1.5em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 0em;
+    margin-top: 0;
+    background-color: white;
+    padding: 0;
+    margin:0;
+    color: black;
+  }
+  img {
+    max-width: 60%;
+    margin-top: 5%;
+  }
+
+
+  figcaption {
+    font-family: 'Raleway' sans-serif;
+    clear: center;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+a.et:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.et:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.et:hover {
+    color: black;
+    background-color: transparent;
+}
+a.et:active {
+    color: black;
+    background-color: transparent;
+}
+
+
+.last{
+      font-family: 'Raleway' sans-serif;
+      text-align: left;
+      padding-bottom: 1em;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: url('../img/wood.png');
+        text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px;
+    }
+
+    li a {
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-align: center;
+        padding: 14px 7px;
+        font-size: 9px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+
+/*første billede*/
+#heksaet{
+  color:black;
+  border: none;
+  background: url('../img/wood.png');
+  width: 20%;
+  outline:none;
+}
+#heksato{
+  color:black;
+  background-color: #8e8e8e;
+  border: none;
+  width: 20%;
+ outline:none;
+}
+
+#heksatre{
+  color:black;
+  background-color: #a66c6c;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+#heksafire{
+  color:white;
+  background-color: #5d7154;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+/*billede to*/
+#faxaet{
+  color:black;
+  border: none;
+  background-color: #e8d171;
+  width: 20%;
+  outline:none;
+}
+#faxato{
+  color:black;
+  background-color: #aba5a9;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+#faxatre{
+  color:black;
+  background-color: #c29095;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+#faxafire{
+  color:white;
+  background-color: black;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+/*billede tre*/
+#linkaet{
+  color:black;
+  border: none;
+  background-color: #5f7670;
+  width: 20%;
+  outline:none;
+}
+#linkato{
+  color:black;
+  background-color: #b3caec;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+
+/*billede fire*/
+#staket{
+  color:black;
+  border: none;
+  background: url('../img/wood.png');
+  width: 20%;
+  outline:none;
+}
+#stakto{
+  color:black;
+  background-color: grey;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+#staktre{
+  color:black;
+  background-color: white;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+#stakfire{
+  color:white;
+  background-color: black;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+/*billede fem*/
+#nekaet{
+  color:black;
+  border: none;
+  background: url('../img/wood.png');
+  width: 20%;
+  outline:none;
+}
+#nekato{
+  color:black;
+  background-color: #9f9f9f;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+#nekatre{
+  color:black;
+  background-color: white;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+#nekafire{
+  color:white;
+  background-color: #4d5d4e;
+  border: none;
+  width: 20%;
+  outline:none;
+}
+
+
+  @media only screen and (min-width: 360px){
+      .responsive {
+          width: 100%;
+      }
+
+      h1 {
+        background-color: white;
+
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 12px;
+      }
+
+      li a {
+          display: block;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          padding: 14px 7px;
+          font-size: 10px;
+
+          text-decoration: none;
+      }
+
+  }
+
+  @media only screen and (min-width: 441px){
+      .responsive {
+          width: 100%;
+      }
+
+      h1 {
+        background-color: white;
+
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 17px;
+      }
+
+      li a {
+          display: block;
+          font-size: 8px;
+          color: white;
+          text-align: center;
+          padding: 14px 9px;
+          font-size: 15px;
+
+          text-decoration: none;
+      }
+
+
+  }
+
+
+  @media only screen and (min-width: 736px){
+      .responsive {
+          width: 100%;
+      }
+
+      button{
+        font-size: 15px;
+      }
+
+      h1 {
+        background-color: white;
+        font-size:80px;
+
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 20px;
+      }
+
+      li a {
+          display: block;
+          font-size: 10px;
+          color: white;
+          text-align: center;
+          padding: 14px 17px;
+          font-size: 18px;
+          text-decoration: none;
+      }
+
+  }
+  @media only screen and (min-width: 950px){
+      .responsive {
+          width: 100%;
+      }
+      li {
+        font-size: 5px;
+        display: inline-block;
+        font-size: 20px;
+      }
+
+      li a {
+          display: block;
+          font-size: 10px;
+          color: white;
+          text-align: center;
+          padding: 14px 40px;
+          font-size: 18px;
+          text-decoration: none;
+      }
+    }
